@@ -1,0 +1,16 @@
+# ====================================================================== #
+# HickeyMail                                                             #
+# An IMAP / E-Mail scanner to check for UConn School Closings and Delays #
+# ver. 1.0                                                               #
+# (C) 2010 - Rockwell B. Schrock & Erik J. Reynolds                      #
+# THIS VERSION IS FOR MICROSOFT WINDOWS.                                 #
+# ====================================================================== #
+
+This script is most effectively used in combination with cron or a task scheduler (on a 15 minute interval perhaps).
+
+Linux users may wish to use the Festival package.
+
+apt-get install festival
+
+Modify the code to do something ala:
+	system "echo foobar | festival -tts"
