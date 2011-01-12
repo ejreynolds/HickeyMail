@@ -46,7 +46,6 @@ v = SpVoice.new
 hickey_message = ''
 
 # Search for e-mails from Jay Hickey
-#imap.search(["FROM", "Hickey, Jay", "NOT", "NEW", "SINCE", todays_date]).each do |msg_id|
 imap.search(["NOT", "NEW", "SINCE", todays_date]).each do |msg_id|
   envelope = imap.fetch(msg_id, "ENVELOPE")[0].attr["ENVELOPE"]
    if envelope.from[0].mailbox == 'jay.hickey' and envelope.from[0].host = 'uconn.edu'
