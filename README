@@ -8,6 +8,8 @@
 
 This script is most effectively used in combination with cron or a task scheduler (on a 15 minute interval perhaps).
 
+You need to run: gem install win32-sapi
+
 Linux users may wish to use the Festival package.
 
 apt-get install festival

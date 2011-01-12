@@ -8,7 +8,7 @@
 
 # You'll need to do:
 # grab and install ruby from http://rubyforge.org/frs/download.php/69035/rubyinstaller-1.9.1-p378-rc2.exe
-# run the following from an administrative command prompt: gem install win32-sapi5
+# run the following from an administrative command prompt: gem install win32-sapi
 # you can then call the script via: ruby HickeyMail.rb
 # or... set it as a task in Windows Task Scheduler (to run the above command)
 
@@ -23,7 +23,7 @@ include Win32
 server = "imap.gmail.com"
 port = 993
 use_ssl = true
-user = "root@internet.com"
+user = "root@dook.com"
 pass = "HAHA"
 folder = "INBOX"
 
